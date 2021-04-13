@@ -23,9 +23,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);
 Route::apiResource('products', ProductController::class)->only('index');
+Route::get('products/search/{name}', [ProductController::class, 'search']);
 //protected route
 Route::middleware('auth:sanctum')->group(function () {
     Route::apiResource('products', ProductController::class)->except('index');
-    Route::get('products/search/{name}', [ProductController::class, 'search']);
     Route::post('logout', [AuthController::class, 'logout']);
 });

@@ -20,7 +20,7 @@ class AuthController extends Controller
             'email' => $req->email,
             'password' => \bcrypt($field['password']),
         ]);
-        $token = $user->createToken('myapptoken')->plainTextToken;
+        $token = $user->createToken("$user->name _token")->plainTextToken;
         $response = [
             'user' => $user,
             'token' => $token,
@@ -40,7 +40,7 @@ class AuthController extends Controller
                 'message' => 'Bad creds',
             ], 401); //401 for unauthorization
         }
-        $token = $user->createToken('myapptoken')->plainTextToken;
+        $token = $user->createToken("$user->name _token")->plainTextToken;
         $response = [
             'user' => $user,
             'token' => $token,
