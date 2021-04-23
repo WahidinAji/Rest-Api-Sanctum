@@ -14,12 +14,52 @@ php artisan migrate
 ##
 ## Dokumentasi by Postman
 ## Register User
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/1%20Register%20user.PNG" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/1%20Register%20user.PNG" width="800"></a></p>
+
+## Register User Need Confirm Password (is null)
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/2%20Register%20user%20need%20password%20confirm%20-1.PNG" width="800"></a></p>
+
+## Register User Need Confirm Password (is doesn't matched)
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/2%20Register%20user%20need%20password%20confirm%20-2.PNG" width="800"></a></p>
+
+## Register User Success and got a token
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/3%20Register%20user%20success.PNG" width="800"></a></p>
+
+## Logout can be success if the token is match
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/4%20Logout%20with%20token.PNG" width="800"></a></p>
+
+## Logout cann't be success if without token
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/4%20Logout%20without%20token.PNG" width="800"></a></p>
+
+## Login User Success
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/5%20Login%20user%20successfully%20and%20then%20generated%20token%20for%20session%20login-2.PNG" width="800"></a></p>
+
+## Login User failed if password is wrong
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Auth%20User/5%20Login%20user%20but%20the%20password%20is%20wrong%20-1.PNG" width="800"></a></p>
 
 ## view all products
 ![alt text](https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/Index.PNG)
 ##
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+## Store data without token
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/With%20Token%20Sanctum/1%20store%20data%20before.PNG" width="800"></a></p>
+
+## Store data with token
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/With%20Token%20Sanctum/2%20store%20data%20after.PNG" width="800"></a></p>
+
+## Show data by id without token
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/show_by_id-with-protected-sanctum.PNG" width="800"></a></p>
+
+## Delete data but id is nothing in database
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/With%20Token%20Sanctum/3%20delete%20data%20but%20the%20id%20is%20nothing%20in%20databases%20-2.PNG" width="800"></a></p>
+
+## Delete data with token
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/With%20Token%20Sanctum/3%20delete%20data%20successfully%20-3.PNG" width="800"></a></p>
+
+## Notes, don't forget to Accept : Application/json
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/WahidinAji/Rest-Api-Sanctum/blob/master/public/docs_api/if%20the%20message%20if%20like%20that%2C%20check%20the%20headers.%20is%20there%20already%20accept-appication_json%20or%20not.PNG" width="800"></a></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="800"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
